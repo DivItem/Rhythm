@@ -1,0 +1,415 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+#header {
+    top: 86px;
+}
+#topbar {
+	height: 105px;
+}
+
+.container-fluid.justify-content-center.justify-content-md-between.container-big-sc {
+	display: none;
+}
+.container-fluid.container-small-sc {
+	display: block;
+}
+.container-fluid.container-small-sc {
+	display: block;
+}
+.top-sd-item img.logo-1 {
+	width: 62px;
+	float: left;
+	margin-top: 5px;
+}
+.top-sd-item img.logo-2 {
+	width: 150px;
+	float: right;
+	margin-top: 12px;
+}   
+.search-container p {
+	display: inline-block;
+}
+#header .logo img {
+	margin-top: -71px;
+	width: 69px;
+}
+#header.fixed-top.d-flex.align-items-center img {
+    opacity: 0;
+}
+#header.fixed-top.d-flex.align-items-center.header-scrolled img {
+    opacity: 1;
+}   
+#header {
+	background: transparent;
+}    
+#header.header-scrolled {
+    background: #fff;
+}    
+   
+.col-md-4.top-blank {
+    display: none;
+}
+
+#header.header-scrolled .logo img.company-name-2 {
+    display: inherit;
+    width: 50%;
+    transition: all .3s;
+}
+
+
+.company-name a.company-name-logo img {
+    max-width: 108px;
+    float: left;
+    display: none;
+}
+
+#header.header-scrolled .logo img.company-name-2 {
+    display: inherit;
+    width: 145px;
+    transition: all .3s;
+    position: absolute;
+    right: 54px;
+    top: 16px;
+}
+
+.col-md-4.contact-top-info {
+    flex: 0 0 auto;
+    width: auto;
+}
+#header .logo img {
+    margin-top: -71px;
+    width: 69px;
+}
+.search-container button {
+    background: #009000;
+    border: 1px solid #009000;
+    margin-left: -5px;
+    margin-right: 10px;
+    height: 29px;
+    width: 33px;
+}
+#topbar .search-container input {
+    padding: 3px;
+    max-width: 108px;
+}
+.search-container {
+    margin-top: 11px;
+    text-align: center;
+}
+.navbar a, .navbar a:focus {
+    display: block;
+    color: #fff;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+.navbar-mobile ul {
+    padding: 0;
+}
+.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+    color: #fff;
+}
+.navbar-mobile .dropdown ul {
+    margin: 0;
+    padding: 10px;
+}
+.blog-list .single-box p {
+    font-size: 13px;
+    font-weight: 500;
+}
+.blog-list .single-box a.read-btn {
+    margin-bottom: 10px;
+}
+.blog-main-box h4.single-blog-link {
+    font-size: 18px;
+}
+.blog-list .blog-main-box {
+    margin-bottom: 10px;
+}
+.testimonials .testimonial-item p {
+    font-size: 12px;
+}
+.text-content h3 {
+    color: #009000;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.text-content a.read-more-btn {
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.testimonials .swiper-button-prev {
+    left: 63%;
+    width: 48px;
+    height: 50px;
+}
+.testimonials .swiper-button-next {
+    left: 80%;
+    width: 48px;
+    height: 50px;
+}
+.picture-gallery-area .row {
+    display: block;
+}
+.form-area .main-heading h1 {
+	font-size: 35px;
+}
+.form-area .main-heading h2 {
+	font-size: 26px;
+    margin-bottom: 30px;
+}
+
+
+}    
+/* Extra Small Devices, Phones */
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+    .col-md-4.top-blank {
+        display: none;
+    }
+    .company-name a.company-name-logo img {
+        max-width: 108px;
+        float: left;
+        display: none;
+    }
+    .col-md-4.contact-top-info {
+        flex: 0 0 auto;
+        width: auto;
+    }
+    #header .logo img {
+        margin-top: -42px;
+        width: 77px;
+    }
+    #header.header-scrolled .logo img.company-name-2 {
+        width: 145px;
+        position: absolute;
+        right: 54px;
+        top: 16px;
+    }
+    .search-container button {
+        background: #009000;
+        border: 1px solid #009000;
+        margin-left: -5px;
+        margin-right: 10px;
+        height: 29px;
+        width: 33px;
+    }
+    #topbar .search-container input {
+        padding: 3px;
+    }
+    .search-container {
+        margin-top: 11px;
+        text-align: center;
+    }
+    .navbar a, .navbar a:focus {
+        display: block;
+        color: #fff;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+    }
+    .navbar-mobile ul {
+        padding: 0;
+    }
+    .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+        color: #fff;
+    }
+    .navbar-mobile .dropdown ul {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .text-content h3 {
+        color: #009000;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+    .text-content a.read-more-btn {
+        font-size: 14px;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .testimonials .swiper-button-prev {
+        left: 68%;
+        width: 44px;
+        height: 49px;
+    }
+    .testimonials .swiper-button-next {
+        left: 80%;
+        width: 44px;
+        height: 49px;
+    }
+    .picture-gallery-area .item {
+        margin-bottom: 38px !important;
+    }
+
+
+}
+
+/* Small Devices, Tablets */
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+    .col-md-4.top-blank {
+        display: none;
+    }
+    .company-name a.company-name-logo img {
+        max-width: 200px;
+        float: right;
+    }
+    .col-md-4.contact-top-info {
+        flex: 0 0 auto;
+        width: auto;
+    }
+    .feature-content {
+        text-align: center;
+    }
+    .about .about-us-img, .text-content {
+        margin-bottom: 10px;
+    }
+    .testimonials .swiper-button-prev {
+        left: 85%;
+    }
+    .navbar a, .navbar a:focus {
+        display: block;
+        color: #fff;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+    }
+    .navbar-mobile ul {
+        padding: 0;
+    }
+    .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+        color: #fff;
+    }
+
+    .form-area {
+        margin-top: 80px;
+    }
+    textarea#occupation {
+        height: 37px;
+    }
+
+    .blog-content a {
+        font-size: 13px;
+    }
+    .blog-content p {
+        font-size: 12px;
+    }
+    .blog-area .blog-heading h4 {
+        font-size: 18px;
+    }
+    .blog-area .blog-side-content h5 {
+        margin-top: 14px;
+    }
+    .blog-side-content p {
+        font-size: 12px;
+    }
+    .blog-side-content.usefull-link a {
+        font-size: 10px;
+    }
+
+
+
+
+
+}
+
+/* Medium Devices, Desktops */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+    .company-name a.company-name-logo img {
+        max-width: 245px;
+    }
+    .search-container input {
+        max-width: 128px;
+    }
+    .navbar a, .navbar a:focus {
+        font-size: 11px;
+    }
+    .text-content h3 {
+        font-size: 28px;
+    }
+    .text-content p {
+        font-size: 12px;
+    }
+    .section-heading span {
+        font-size: 16px;
+    }
+    .blog-list .single-box p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .blog-list .single-box a.read-btn {
+        font-size: 11px;
+        margin-top: 2px;
+    }
+    .testimonials .swiper-button-prev {
+        left: 86%;
+        width: 42px;
+        height: 49px;
+    }
+    .testimonials .swiper-button-next {
+        top: -41px;
+        left: 91%;
+        width: 42px;
+        height: 49px;
+    }
+    .feature-content a {
+        font-size: 12px;
+    }
+    .testimonials .testimonial-item h3 {
+        font-size: 23px;
+    }
+    .testimonials .testimonial-item p {
+        font-size: 15px;
+    }
+    .picture-gallery-area .gallery-heading h4 {
+        font-size: 21px;
+    }
+
+    
+}
+
+/* Large Devices, Wide Screens */
+
+@media (min-width: 1170px) and (max-width: 1366px) {
+    .about-us-img img {
+        max-width: 262px;
+    }
+    .single-blog-item .single-blog-img img {
+        max-width: 100%;
+    }
+    .text-content p {
+        text-align: left;
+        font-size: 13px;
+    }
+    .blog-list .single-box p {
+        font-size: 13px;
+    }
+    .blog-list .single-box {
+        transition: all .1s;
+    }
+    .feature-content a {
+        font-size: 13px;
+    }
+    .testimonials .testimonial-item a.read-more-btn {
+        color: green;
+    }
+    .picture-gallery-area .gallery-heading h4 {
+        font-size: 21px;
+    }
+
+
+
+
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+    
+
+
+
+}
